@@ -1,0 +1,71 @@
+.listStyleNone {
+  list-style-type: none; }
+
+.decorationNone {
+  text-decoration: none; }
+
+.button:hover {
+  background-color: #000;
+  text-decoration: none;
+  color: #eeb501;
+  border-color: #eeb501; }
+
+.buttons {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: #fff; }
+
+.button {
+  border: 1px solid #fff;
+  width: 208px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  display: inline-block;
+  color: #fff;
+  text-align: center; }
+
+.ironMan {
+  background-image: url(../img/background_iron.png);
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  overflow: visible;
+  position: relative; }
+  .ironMan .menu ul li {
+    font-size: 20px;
+    font-family: "OpenSans";
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 15px;
+    /* display: none; */ }
+  .ironMan .ironManImg {
+    margin-left: -60px;
+    margin-top: 67px; }
+  .ironMan .ironContent {
+    margin-top: 165px; }
+  .ironMan .ironTitle {
+    font-size: 68.677px;
+    font-family: "OpenSans";
+    color: #fff;
+    line-height: 0.8; }
+  .ironMan .ironTitleOrange {
+    font-size: 94.221px;
+    font-family: "OpenSans";
+    color: #eeb501;
+    line-height: 0.8;
+    font-weight: 800; }
+  .ironMan .ironText {
+    font-size: 20px;
+    font-family: "OpenSans";
+    color: #fff;
+    margin-bottom: 86px;
+    margin-top: 40px; }
+
+.notActive {
+  display: none; }
+
+.active {
+  display: block; }
+
+/*# sourceMappingURL=style.css.map */
