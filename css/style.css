@@ -27,7 +27,9 @@
 
 .ironMan {
   background-image: url(../img/background_iron.png);
+  width: 100%;
   background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 30px;
   padding-bottom: 100px;
   overflow: visible;
@@ -37,13 +39,17 @@
     font-family: "OpenSans";
     color: #fff;
     text-transform: uppercase;
-    margin-right: 15px;
-    /* display: none; */ }
+    margin-right: 20px; }
   .ironMan .ironManImg {
     margin-left: -60px;
-    margin-top: 67px; }
+    margin-top: 67px;
+    width: 100%;
+    height: auto; }
+  .ironMan .menu ul .mainButton {
+    margin-right: -23px; }
   .ironMan .ironContent {
-    margin-top: 165px; }
+    margin-top: 165px;
+    margin-right: -140px; }
   .ironMan .ironTitle {
     font-size: 68.677px;
     font-family: "OpenSans";
@@ -67,5 +73,59 @@
 
 .active {
   display: block; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .ironMan .ironContent {
+    margin-top: 0px;
+    margin-right: -10px;
+    text-align: center; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .ironMan .container .ironManImg {
+    margin-left: 0px;
+    margin-top: 67px; }
+
+  .logo {
+    text-align: center; }
+
+  .ironMan .ironContent {
+    margin-top: 0px;
+    margin-right: 0px;
+    text-align: center; }
+
+  .ironBtn {
+    text-align: center; }
+
+  .ironTitleOrange {
+    text-align: center; }
+
+  .ironTitle {
+    text-align: center; } }
+@media (min-width: 320px) and (max-width: 767px) {
+  .ironMan .container .ironManImg {
+    margin-left: 0px;
+    margin-top: 67px; }
+
+  .logo {
+    text-align: center; }
+
+  .ironMan .ironContent {
+    margin-top: 0px;
+    margin-right: 0px;
+    text-align: center; }
+
+  .ironBtn {
+    text-align: center; }
+
+  .ironTitleOrange {
+    text-align: center; }
+
+  .ironTitle {
+    text-align: center; }
+
+  .mainButton {
+    text-align: center; }
+
+  .ironMan .menu ul .mainButton {
+    margin-right: 0px; } }
 
 /*# sourceMappingURL=style.css.map */

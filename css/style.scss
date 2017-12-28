@@ -37,7 +37,9 @@ $black: #000;
 }
 .ironMan{
 	background-image: url(../img/background_iron.png);
+	width: 100%;
 	background-repeat: no-repeat;
+	background-size: cover;
 	padding-top: 30px;
 	padding-bottom: 100px;
 	overflow: visible;
@@ -47,15 +49,21 @@ $black: #000;
 	  font-family: $font-family;
 	  color: $white;
 	  text-transform: uppercase;
-	  margin-right: 15px;
-	  /* display: none; */
+	  margin-right: 20px;
 	}
 	.ironManImg{
 		margin-left: -60px;
 		margin-top: 67px;
+		width: 100%;
+		height: auto;
 	}
+
+	  .menu ul .mainButton{
+		margin-right: -23px;
+	}  
 	.ironContent{
 		margin-top: 165px;
+		margin-right: -140px;
 	}
 	.ironTitle{
 		  font-size: 68.677px;
@@ -85,4 +93,82 @@ $black: #000;
 
 .active{
 	display: block; 
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+   .ironMan .ironContent{
+		margin-top: 0px;
+		margin-right: -10px;
+		text-align: center;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+   .ironMan .container .ironManImg{
+		margin-left: 0px;
+		margin-top: 67px;
+	}
+
+   .logo{
+   		text-align: center;
+   }
+
+   .ironMan .ironContent{
+		margin-top: 0px;
+		margin-right: 0px;
+		text-align: center;
+	}
+
+	.ironBtn{
+		text-align: center;
+	}
+
+	.ironTitleOrange{
+		text-align: center;
+	}
+
+	.ironTitle{
+		text-align: center;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.ironMan .container .ironManImg{
+		margin-left: 0px;
+		margin-top: 67px;
+	}
+
+   .logo{
+   		text-align: center;
+   }
+
+   .ironMan .ironContent{
+		margin-top: 0px;
+		margin-right: 0px;
+		text-align: center;
+	}
+
+	.ironBtn{
+		text-align: center;
+	}
+
+	.ironTitleOrange{
+		text-align: center;
+	}
+
+	.ironTitle{
+		text-align: center;
+	}
+
+	.mainButton{
+		text-align: center;
+	}
+
+	.ironMan .menu ul .mainButton{
+		margin-right: 0px;
+	} 
 }
