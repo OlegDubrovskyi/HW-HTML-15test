@@ -43,6 +43,8 @@
     color: #fff;
     text-transform: uppercase;
     margin-right: 20px; }
+  .ironMan .menu {
+    float: right; }
   .ironMan .menu ul li {
     float: left; }
   .ironMan .ironManImg {
@@ -84,11 +86,67 @@
 .active {
   display: block; }
 
+.aboutServices {
+  background-image: url(../img/section2_background.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 25px;
+  padding-top: 67px; }
+  .aboutServices .container .circleBorder {
+    border: 1px solid #eeb501;
+    background-color: #eeb501;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    line-height: 90px;
+    vertical-align: middle; }
+  .aboutServices .title {
+    width: 186px;
+    font-size: 26px;
+    font-family: "Open Sans";
+    color: #1e0404;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 22px; }
+  .aboutServices .description {
+    width: 300px;
+    font-size: 15px;
+    font-family: "Open Sans";
+    color: #1e0404;
+    line-height: 1.6;
+    margin-top: 30px;
+    margin-bottom: 100px; }
+  .aboutServices .awesome {
+    font-size: 50px;
+    font-family: "Open Sans";
+    font-weight: 800;
+    color: #fff;
+    line-height: 1.2;
+    background: #eeb501;
+    padding: 1px;
+    width: 349px;
+    margin-bottom: 10px; }
+  .aboutServices .just {
+    margin-top: 122px;
+    margin-bottom: 40px; }
+
+h1 {
+  font-size: 33px;
+  font-family: "Open Sans";
+  color: #1e0404;
+  line-height: 1.2;
+  font-weight: 800; }
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .ironMan .ironContent {
     margin-top: 0px;
     margin-right: -10px;
-    text-align: center; } }
+    text-align: center; }
+
+  .aboutServices .description {
+    width: 240px; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .ironMan .container .ironManImg {
     margin-left: 0px;
@@ -147,6 +205,9 @@
   .navLink {
     width: 100%;
     text-align: center;
-    margin-top: 10px; } }
+    margin-top: 10px; }
+
+  .aboutServices .description {
+    width: 240px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -32,7 +32,7 @@ $black: #000;
 }
 
 .button {
-    border: 1px solid #fff;
+    border: 1px solid $white;
     width: 208px;
     padding-top: 18px;
     padding-bottom: 18px;
@@ -55,6 +55,10 @@ $black: #000;
 	  color: $white;
 	  text-transform: uppercase;
 	  margin-right: 20px;
+	}
+
+	.menu{
+		float: right;
 	}
 
 	.menu ul li{
@@ -112,15 +116,77 @@ $black: #000;
 	display: block; 
 }
 
-@media (min-width: 1200px) and (max-width: 1600px) {
+.aboutServices{
+	background-image: url(../img/section2_background.png);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 25px;
+	padding-top: 67px;
 
+	.container .circleBorder{
+		border: 1px solid $yellow;
+		background-color: $yellow;
+		border-radius: 50%;
+		height: 90px;
+		width: 90px;
+		display: inline-block;
+    	line-height: 90px;
+    	vertical-align: middle;
+	}
+	.title{
+		width: 186px;
+		font-size: 26px;
+		font-family: $font-family;
+		color: rgb(30, 4, 4);
+		font-weight: bold;
+		line-height: 1.2;
+		margin-top: 22px;
+	}
+	.description{
+		width: 300px;
+		font-size: 15px;
+		font-family: $font-family;
+		color: rgb(30, 4, 4);
+		line-height: 1.6;
+		margin-top: 30px;
+		margin-bottom: 100px;
+	}
+	.awesome{
+	  font-size: 50px;
+	  font-family: $font-family;
+	  font-weight: 800;
+	  color: $white;
+	  line-height: 1.2;
+	  background: $yellow; 
+      padding: 1px;
+      width: 349px;
+      margin-bottom: 10px;
+	}
+
+	.just{
+		margin-top: 122px;
+		margin-bottom: 40px
+	}
 }
+
+h1{
+		  font-size: 33px;
+		  font-family: $font-family;
+		  color: rgb(30, 4, 4);
+		  line-height: 1.2;
+		  font-weight: 800;
+	}
 
 @media (min-width: 992px) and (max-width: 1199px) {
    .ironMan .ironContent{
 		margin-top: 0px;
 		margin-right: -10px;
 		text-align: center;
+	}
+
+	.aboutServices .description{
+		width: 240px;
 	}
 }
 
@@ -200,5 +266,9 @@ $black: #000;
 		width: 100%;
 		text-align: center;
 		margin-top: 10px;
+	}
+
+	.aboutServices .description{
+		width: 240px;
 	}
 }
